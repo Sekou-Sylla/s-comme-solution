@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S comme Solution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #0c2442;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 60px;
+        }
+        nav a {
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #0c2442;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+        .hero button {
+            background-color: #12325c;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .section {
+            padding: 60px 20px;
+            background-color: #f5f5f5;
+        }
+        .section:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+        .section h2 {
+            text-align: center;
+            color: #0c2442;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .service {
+            width: 45%;
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .service i {
+            font-size: 24px;
+            color: #0c2442;
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .contact-form, .contact-info {
+            width: 48%;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #0c2442;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0c2442;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo S comme Solution">
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Bienvenue chez S comme Solution</h1>
+    <p>Votre partenaire juridique de confiance. Nous offrons des conseils personnalisés, une assistance rigoureuse et un accompagnement sur mesure pour particuliers et entreprises.</p>
+    <button>Prendre rendez-vous</button>
+</section>
+
+<section class="section">
+    <h2>À propos</h2>
+    <p style="max-width: 800px; margin: auto; text-align: center;">Chez S comme Solution, nous croyons que chaque problème juridique a sa solution. Notre équipe vous accompagne avec rigueur, confidentialité et efficacité dans le respect de vos droits et obligations.</p>
+</section>
+
+<section class="section">
+    <h2>Services</h2>
+    <div class="services">
+        <div class="service">
+            <i class="fas fa-gavel"></i>
+            <h3>Conseil juridique</h3>
+            <p>Famille, affaires, immobilier, travail… nous vous accompagnons dans toutes vos démarches.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-handshake"></i>
+            <h3>Assistance</h3>
+            <p>Préparation de dossiers, stratégie, orientation et soutien adapté à vos besoins.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-file-signature"></i>
+            <h3>Rédaction d’actes</h3>
+            <p>Contrats, statuts, accords… des documents rédigés avec soin et conformité.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-coins"></i>
+            <h3>Recouvrement amiable</h3>
+            <p>Nous intervenons pour vous aider à récupérer vos créances efficacement et sans procédure judiciaire.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Contact</h2>
+    <div class="contact">
+        <div class="contact-form">
+            <input type="text" placeholder="Nom">
+            <input type="email" placeholder="Email">
+            <textarea rows="4" placeholder="Message"></textarea>
+            <button>Nous contacter</button>
+        </div>
+        <div class="contact-info">
+            <p><strong>Téléphone :</strong> +227 80245194</p>
+            <p><strong>Email :</strong> sekoutostaosylla@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 S comme Solution — Tous droits réservés
+</footer>
+
+</body>
+</html>
